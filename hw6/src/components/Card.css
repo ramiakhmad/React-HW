@@ -1,0 +1,146 @@
+.card {
+  width: 1707px;
+  height: 796px;
+  background-color: #0c0417;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 35px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.spotify-icon {
+  position: absolute;
+  top: 55px;
+  left: 35px;
+}
+
+.spotify-icon img {
+  width: 140px;
+  height: 44px;
+}
+
+.text-container {
+  margin-top: 211px;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-family: "Rubik", sans-serif;
+  color: #1ed760;
+  font-size: 64px;
+  margin: 0 auto;
+  width: 971px;
+  height: 76px;
+  padding-left: 368px;
+  padding-right: 368px;
+  white-space: nowrap;
+}
+
+.subtitle {
+  color: white;
+  font-size: 38px;
+  margin: 0 auto;
+  width: 109px;
+  height: 38px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.subtitle.green {
+  color: #1ed760;
+}
+
+.subtitle.with {
+  width: 72px;
+  margin-top: 10px;
+}
+
+.icons-frame {
+  margin-top: 31px;
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  border: 3px solid white;
+  padding: 36px;
+  width: 446px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 65px;
+  overflow: hidden;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 98px;
+  transition: background-color 0.2s;
+}
+
+/* .icon-container.blue {
+    background-color: blue; 
+  }
+   */
+.icon {
+  width: 106px;
+  height: 98px;
+  transition: transform 0.2s;
+}
+svg:hover {
+  fill: red; /* Изменяет цвет при наведении */
+}
+
+svg:focus {
+  fill: blue; /* Изменяет цвет при фокусе */
+}
+.icon:hover {
+  transform: translateY(-10px);
+  background-color: #1181f1;
+  border: 1px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .spotify-icon img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .title {
+    font-size: 36px;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .icons-frame {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .icon-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+}

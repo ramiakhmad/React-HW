@@ -1,0 +1,12 @@
+/* src/components/ParagraphsComponent.css */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #34495e;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

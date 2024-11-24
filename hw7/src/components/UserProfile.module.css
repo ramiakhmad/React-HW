@@ -2,13 +2,14 @@
 .profile {
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #030303;
     border-radius: 10px;
     max-width: 300px;
     width: 300px;
-    height: 450px;
+    height: fit-content;
     margin: 0 auto;
-    background-color: #d1f7c4; 
+    background-color:#6141fd; 
+    color: #F5F4FB;
   }
   
   .avatar {
@@ -17,14 +18,14 @@
   }
   
   .button {
-    background-color: #ccc;
-    color: black;
+    background-color: #1777FD;
+    color: #F5F4FB;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-    font-size: 14px; /* Размер шрифта 14px */
+    font-size: 14px; 
   }
   
   .button:hover {

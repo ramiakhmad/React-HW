@@ -1,0 +1,13 @@
+.articles {
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .articles ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .articles li {
+    margin: 10px 0;
+  }

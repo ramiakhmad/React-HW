@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.app{
+  margin: 0 auto;
+  max-width:1200px;
+}
+
+h1 {
+  color: #ffff;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
